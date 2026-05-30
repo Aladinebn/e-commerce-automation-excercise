@@ -19,8 +19,6 @@ en passant par la conception BDD, la gestion sur Jira et l'organisation sur Squa
 
 ## 🚀 Sprint 1 — Authentication Module
 
-## 🚀 Sprint 1 — Authentication Module
-
 ### Périmètre couvert
 
 | TC | Titre | Squash TM (Manuel) | Automatisé |
