@@ -1,0 +1,8 @@
+Generate Playwright Java code.
+Rules:
+- Page Object Model
+- reusable methods
+- avoid duplicated code
+- use expect assertions
+- avoid hard waits
+- concise code

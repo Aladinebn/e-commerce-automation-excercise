@@ -1,0 +1,7 @@
+Generate manual test cases.
+Rules:
+- concise steps
+- no duplicates
+- include expected results
+- prioritize critical scenarios
+- separate positive and negative tests

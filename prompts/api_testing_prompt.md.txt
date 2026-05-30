@@ -1,0 +1,9 @@
+Generate API tests.
+Validate:
+- status code
+- schema
+- response body
+- response time
+- authentication
+- boundary cases
+- negative cases

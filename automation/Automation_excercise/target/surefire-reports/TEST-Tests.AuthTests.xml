@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Tests.AuthTests" time="61.418" tests="5" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\MSI\Desktop\projet_e-commerce\automation\Automation_excercise\target\test-classes;C:\Users\MSI\Desktop\projet_e-commerce\automation\Automation_excercise\target\classes;C:\Users\MSI\.m2\repository\com\microsoft\playwright\playwright\1.58.0\playwright-1.58.0.jar;C:\Users\MSI\.m2\repository\com\google\code\gson\gson\2.13.2\gson-2.13.2.jar;C:\Users\MSI\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\MSI\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\MSI\.m2\repository\com\microsoft\playwright\driver\1.58.0\driver-1.58.0.jar;C:\Users\MSI\.m2\repository\com\microsoft\playwright\driver-bundle\1.58.0\driver-bundle-1.58.0.jar;C:\Users\MSI\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.3\junit-jupiter-5.11.3.jar;C:\Users\MSI\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.3\junit-jupiter-api-5.11.3.jar;C:\Users\MSI\.m2\repository\org\junit\platform\junit-platform-commons\1.11.3\junit-platform-commons-1.11.3.jar;C:\Users\MSI\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\MSI\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.3\junit-jupiter-params-5.11.3.jar;C:\Users\MSI\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.3\junit-jupiter-engine-5.11.3.jar;C:\Users\MSI\.m2\repository\org\junit\platform\junit-platform-engine\1.11.3\junit-platform-engine-1.11.3.jar;C:\Users\MSI\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\MSI\.m2\repository\ch\qos\logback\logback-classic\1.5.32\logback-classic-1.5.32.jar;C:\Users\MSI\.m2\repository\ch\qos\logback\logback-core\1.5.32\logback-core-1.5.32.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Lagos"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\MSI\AppData\Local\Temp\surefire7418751634148205298\surefirebooter-20260530184104608_3.jar C:\Users\MSI\AppData\Local\Temp\surefire7418751634148205298 2026-05-30T18-41-04_497-jvmRun1 surefire-20260530184104608_1tmp surefire_0-20260530184104608_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\MSI\Desktop\projet_e-commerce\automation\Automation_excercise\target\test-classes;C:\Users\MSI\Desktop\projet_e-commerce\automation\Automation_excercise\target\classes;C:\Users\MSI\.m2\repository\com\microsoft\playwright\playwright\1.58.0\playwright-1.58.0.jar;C:\Users\MSI\.m2\repository\com\google\code\gson\gson\2.13.2\gson-2.13.2.jar;C:\Users\MSI\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\MSI\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\MSI\.m2\repository\com\microsoft\playwright\driver\1.58.0\driver-1.58.0.jar;C:\Users\MSI\.m2\repository\com\microsoft\playwright\driver-bundle\1.58.0\driver-bundle-1.58.0.jar;C:\Users\MSI\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.3\junit-jupiter-5.11.3.jar;C:\Users\MSI\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.3\junit-jupiter-api-5.11.3.jar;C:\Users\MSI\.m2\repository\org\junit\platform\junit-platform-commons\1.11.3\junit-platform-commons-1.11.3.jar;C:\Users\MSI\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\MSI\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.3\junit-jupiter-params-5.11.3.jar;C:\Users\MSI\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.3\junit-jupiter-engine-5.11.3.jar;C:\Users\MSI\.m2\repository\org\junit\platform\junit-platform-engine\1.11.3\junit-platform-engine-1.11.3.jar;C:\Users\MSI\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\MSI\.m2\repository\ch\qos\logback\logback-classic\1.5.32\logback-classic-1.5.32.jar;C:\Users\MSI\.m2\repository\ch\qos\logback\logback-core\1.5.32\logback-core-1.5.32.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\MSI"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-25.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\MSI\Desktop\projet_e-commerce\automation\Automation_excercise"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\MSI\AppData\Local\Temp\surefire7418751634148205298\surefirebooter-20260530184104608_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.2+10-LTS-69"/>
+    <property name="user.name" value="MSI"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\MSI\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\MSI\AppData\Local\Temp\"/>
+    <property name="java.version" value="25.0.2"/>
+    <property name="user.dir" value="C:\Users\MSI\Desktop\projet_e-commerce\automation\Automation_excercise"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-25.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\WebDriver;C:\Program Files\Maven\apache-maven-3.9.12\apache-maven-3.9.12\bin;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.12\bin;C:\Program Files\nodejs\;C:\Program Files\Tailscale\;C:\Users\MSI\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Maven\apache-maven-3.9.12\bin;C:\Users\MSI\AppData\Roaming\npm;C:\Users\MSI\AppData\Local\Python\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.3\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.0.2+10-LTS-69"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="validRegister" classname="Tests.AuthTests" time="21.933">
+    <system-out><![CDATA[18:41:08.013 [main] INFO Tests.AuthTests -- ▶ [TC-L09] Démarrage — Inscription flux complet
+18:41:08.020 [main] DEBUG Pages.LoginPage -- 🔧 LoginPage initialisée — tous les locators chargés
+18:41:08.020 [main] INFO Tests.AuthTests -- 🌐 [TC-L09] Navigation vers la page Login
+18:41:08.020 [main] INFO Pages.LoginPage -- 🌐 Navigation vers : https://automationexercise.com/login
+18:41:13.110 [main] INFO Pages.LoginPage -- ✅ Page Login chargée
+18:41:13.111 [main] INFO Tests.AuthTests -- ✏️ [TC-L09] Saisie nom inscription : 'Geoffrey J Lopez'
+18:41:13.111 [main] INFO Pages.LoginPage -- ✏️ Saisie nom signup : 'Geoffrey J Lopez'
+18:41:14.337 [main] DEBUG Pages.LoginPage -- ✏️ Champ 'Locator@//input[@data-qa='signup-name']' rempli avec : 'Geoffrey J Lopez'
+18:41:14.340 [main] INFO Tests.AuthTests -- ✏️ [TC-L09] Saisie email inscription : 'ski.l.igge.e@gmail.com'
+18:41:14.340 [main] INFO Pages.LoginPage -- ✏️ Saisie email signup : 'ski.l.igge.e@gmail.com'
+18:41:15.373 [main] DEBUG Pages.LoginPage -- ✏️ Champ 'Locator@//input[@data-qa='signup-email']' rempli avec : 'ski.l.igge.e@gmail.com'
+18:41:15.373 [main] INFO Tests.AuthTests -- 🖱️ [TC-L09] Clic sur le bouton Signup
+18:41:15.373 [main] INFO Pages.LoginPage -- 🖱️ Clic sur le bouton Signup
+18:41:17.469 [main] DEBUG Pages.LoginPage -- 🖱️ Clic effectué sur : Locator@button[data-qa='signup-button']
+18:41:17.470 [main] INFO Tests.AuthTests -- 🔍 [TC-L09] Vérification — formulaire ENTER ACCOUNT INFORMATION visible
+18:41:17.499 [main] INFO Tests.AuthTests -- ✅ [TC-L09] Formulaire affiché — saisie des informations du compte
+18:41:17.499 [main] INFO Tests.AuthTests -- ✏️ [TC-L09] Remplissage des champs obligatoires du compte
+18:41:17.499 [main] INFO Pages.LoginPage -- ✏️ Remplissage des champs obligatoires du formulaire d'inscription
+18:41:18.520 [main] DEBUG Pages.LoginPage -- ✏️ Champ 'Locator@#password' rempli avec : 'NTW3bAz@TKNyMX9'
+18:41:19.536 [main] DEBUG Pages.LoginPage -- ✏️ Champ 'Locator@#first_name' rempli avec : 'Geoffrey'
+18:41:20.560 [main] DEBUG Pages.LoginPage -- ✏️ Champ 'Locator@#last_name' rempli avec : 'Lopez'
+18:41:21.577 [main] DEBUG Pages.LoginPage -- ✏️ Champ 'Locator@#address1' rempli avec : '3666 Hickory Lane'
+18:41:22.596 [main] DEBUG Pages.LoginPage -- ✏️ Champ 'Locator@#state' rempli avec : 'Washington DC'
+18:41:23.612 [main] DEBUG Pages.LoginPage -- ✏️ Champ 'Locator@#city' rempli avec : 'Washington'
+18:41:24.628 [main] DEBUG Pages.LoginPage -- ✏️ Champ 'Locator@#zipcode' rempli avec : '20005'
+18:41:25.638 [main] DEBUG Pages.LoginPage -- ✏️ Champ 'Locator@#mobile_number' rempli avec : '213-217-0315'
+18:41:25.638 [main] INFO Pages.LoginPage -- ✅ Tous les champs obligatoires remplis avec succès
+18:41:25.638 [main] INFO Tests.AuthTests -- 🖱️ [TC-L09] Clic sur le bouton Create Account
+18:41:25.638 [main] INFO Pages.LoginPage -- 🖱️ Clic sur le bouton Create Account
+18:41:29.517 [main] DEBUG Pages.LoginPage -- 🖱️ Clic effectué sur : Locator@button[data-qa='create-account']
+18:41:29.517 [main] INFO Tests.AuthTests -- ✅ [TC-L09] SUCCÈS — Compte créé avec succès
+]]></system-out>
+  </testcase>
+  <testcase name="logout" classname="Tests.AuthTests" time="11.839">
+    <system-out><![CDATA[18:41:29.735 [main] INFO Tests.AuthTests -- ▶ [TC-L07] Démarrage — Logout après connexion
+18:41:29.735 [main] DEBUG Pages.LoginPage -- 🔧 LoginPage initialisée — tous les locators chargés
+18:41:29.735 [main] INFO Tests.AuthTests -- 🔑 [TC-L07] Précondition — connexion avec un compte valide
+18:41:29.735 [main] INFO Pages.LoginPage -- 🌐 Navigation vers : https://automationexercise.com/login
+18:41:33.070 [main] INFO Pages.LoginPage -- ✅ Page Login chargée
+18:41:33.070 [main] INFO Pages.LoginPage -- ✏️ Saisie email login : 'zivpippy@rulersonline.com'
+18:41:34.100 [main] DEBUG Pages.LoginPage -- ✏️ Champ 'Locator@input[data-qa='login-email']' rempli avec : 'zivpippy@rulersonline.com'
+18:41:34.101 [main] INFO Pages.LoginPage -- ✏️ Saisie mot de passe login
+18:41:35.115 [main] DEBUG Pages.LoginPage -- ✏️ Champ 'Locator@input[data-qa='login-password']' rempli avec : '9gTK973Rn@i2h6t'
+18:41:35.115 [main] INFO Pages.LoginPage -- 🖱️ Clic sur le bouton Login
+18:41:39.192 [main] DEBUG Pages.LoginPage -- 🖱️ Clic effectué sur : Locator@button[data-qa='login-button']
+18:41:39.192 [main] INFO Tests.AuthTests -- ✅ [TC-L07] Précondition — utilisateur connecté
+18:41:39.192 [main] INFO Tests.AuthTests -- 🖱️ [TC-L07] Clic sur le bouton Logout
+18:41:39.192 [main] INFO Pages.LoginPage -- 🖱️ Clic sur le bouton Logout
+18:41:41.326 [main] DEBUG Pages.LoginPage -- 🖱️ Clic effectué sur : Locator@a:has-text('Logout')
+18:41:41.326 [main] INFO Tests.AuthTests -- 🔍 [TC-L07] Vérification — 'Logged in as username' n'est plus visible
+18:41:41.352 [main] INFO Tests.AuthTests -- ✅ [TC-L07] SUCCÈS — Session terminée, utilisateur déconnecté
+]]></system-out>
+  </testcase>
+  <testcase name="validLogin" classname="Tests.AuthTests" time="8.627">
+    <system-out><![CDATA[18:41:41.588 [main] INFO Tests.AuthTests -- ▶ [TC-L01] Démarrage — Login valide
+18:41:41.588 [main] DEBUG Pages.LoginPage -- 🔧 LoginPage initialisée — tous les locators chargés
+18:41:41.589 [main] INFO Tests.AuthTests -- 🌐 [TC-L01] Navigation vers la page Login
+18:41:41.589 [main] INFO Pages.LoginPage -- 🌐 Navigation vers : https://automationexercise.com/login
+18:41:44.581 [main] INFO Pages.LoginPage -- ✅ Page Login chargée
+18:41:44.582 [main] INFO Tests.AuthTests -- ✏️ [TC-L01] Saisie email valide : 'zivpippy@rulersonline.com'
+18:41:44.582 [main] INFO Pages.LoginPage -- ✏️ Saisie email login : 'zivpippy@rulersonline.com'
+18:41:45.612 [main] DEBUG Pages.LoginPage -- ✏️ Champ 'Locator@input[data-qa='login-email']' rempli avec : 'zivpippy@rulersonline.com'
+18:41:45.613 [main] INFO Tests.AuthTests -- ✏️ [TC-L01] Saisie mot de passe valide
+18:41:45.613 [main] INFO Pages.LoginPage -- ✏️ Saisie mot de passe login
+18:41:46.628 [main] DEBUG Pages.LoginPage -- ✏️ Champ 'Locator@input[data-qa='login-password']' rempli avec : '9gTK973Rn@i2h6t'
+18:41:46.628 [main] INFO Tests.AuthTests -- 🖱️ [TC-L01] Clic sur le bouton Login
+18:41:46.628 [main] INFO Pages.LoginPage -- 🖱️ Clic sur le bouton Login
+18:41:49.994 [main] DEBUG Pages.LoginPage -- 🖱️ Clic effectué sur : Locator@button[data-qa='login-button']
+18:41:49.995 [main] INFO Tests.AuthTests -- 🔍 [TC-L01] Vérification — 'Logged in as username' visible
+18:41:50.023 [main] INFO Tests.AuthTests -- ✅ [TC-L01] SUCCÈS — Utilisateur connecté avec succès
+]]></system-out>
+  </testcase>
+  <testcase name="invalidPassword" classname="Tests.AuthTests" time="9.033">
+    <system-out><![CDATA[18:41:50.163 [main] INFO Tests.AuthTests -- ▶ [TC-L02] Démarrage — Login avec mot de passe incorrect
+18:41:50.163 [main] DEBUG Pages.LoginPage -- 🔧 LoginPage initialisée — tous les locators chargés
+18:41:50.163 [main] INFO Tests.AuthTests -- 🌐 [TC-L02] Navigation vers la page Login
+18:41:50.164 [main] INFO Pages.LoginPage -- 🌐 Navigation vers : https://automationexercise.com/login
+18:41:53.423 [main] INFO Pages.LoginPage -- ✅ Page Login chargée
+18:41:53.424 [main] INFO Tests.AuthTests -- ✏️ [TC-L02] Saisie email valide : 'zivpippy@rulersonline.com'
+18:41:53.424 [main] INFO Pages.LoginPage -- ✏️ Saisie email login : 'zivpippy@rulersonline.com'
+18:41:54.451 [main] DEBUG Pages.LoginPage -- ✏️ Champ 'Locator@input[data-qa='login-email']' rempli avec : 'zivpippy@rulersonline.com'
+18:41:54.451 [main] INFO Tests.AuthTests -- ✏️ [TC-L02] Saisie mot de passe incorrect : 'invalid_password'
+18:41:54.451 [main] INFO Pages.LoginPage -- ✏️ Saisie mot de passe login
+18:41:55.467 [main] DEBUG Pages.LoginPage -- ✏️ Champ 'Locator@input[data-qa='login-password']' rempli avec : 'invalid_password'
+18:41:55.467 [main] INFO Tests.AuthTests -- 🖱️ [TC-L02] Clic sur le bouton Login
+18:41:55.467 [main] INFO Pages.LoginPage -- 🖱️ Clic sur le bouton Login
+18:41:59.036 [main] DEBUG Pages.LoginPage -- 🖱️ Clic effectué sur : Locator@button[data-qa='login-button']
+18:41:59.036 [main] INFO Tests.AuthTests -- 🔍 [TC-L02] Vérification — message d'erreur visible
+18:41:59.052 [main] INFO Tests.AuthTests -- ✅ [TC-L02] SUCCÈS — Message d'erreur correctement affiché
+]]></system-out>
+  </testcase>
+  <testcase name="invalidEmail" classname="Tests.AuthTests" time="7.141">
+    <failure message="[TC-L03] ÉCHEC — Le message d&apos;erreur n&apos;est pas affiché ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: [TC-L03] ÉCHEC — Le message d'erreur n'est pas affiché ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at Tests.AuthTests.invalidEmail(AuthTests.java:128)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+]]></failure>
+    <system-out><![CDATA[18:41:59.207 [main] INFO Tests.AuthTests -- ▶ [TC-L03] Démarrage — Login avec email incorrect
+18:41:59.208 [main] DEBUG Pages.LoginPage -- 🔧 LoginPage initialisée — tous les locators chargés
+18:41:59.208 [main] INFO Tests.AuthTests -- 🌐 [TC-L03] Navigation vers la page Login
+18:41:59.208 [main] INFO Pages.LoginPage -- 🌐 Navigation vers : https://automationexercise.com/login
+18:42:03.102 [main] INFO Pages.LoginPage -- ✅ Page Login chargée
+18:42:03.103 [main] INFO Tests.AuthTests -- ✏️ [TC-L03] Saisie email invalide : 'user.com'
+18:42:03.103 [main] INFO Pages.LoginPage -- ✏️ Saisie email login : 'user.com'
+18:42:04.129 [main] DEBUG Pages.LoginPage -- ✏️ Champ 'Locator@input[data-qa='login-email']' rempli avec : 'user.com'
+18:42:04.130 [main] INFO Tests.AuthTests -- ✏️ [TC-L03] Saisie mot de passe valide
+18:42:04.130 [main] INFO Pages.LoginPage -- ✏️ Saisie mot de passe login
+18:42:05.141 [main] DEBUG Pages.LoginPage -- ✏️ Champ 'Locator@input[data-qa='login-password']' rempli avec : '9gTK973Rn@i2h6t'
+18:42:05.141 [main] INFO Tests.AuthTests -- 🖱️ [TC-L03] Clic sur le bouton Login
+18:42:05.141 [main] INFO Pages.LoginPage -- 🖱️ Clic sur le bouton Login
+18:42:06.178 [main] DEBUG Pages.LoginPage -- 🖱️ Clic effectué sur : Locator@button[data-qa='login-button']
+18:42:06.178 [main] INFO Tests.AuthTests -- 🔍 [TC-L03] Vérification — message d'erreur visible
+]]></system-out>
+  </testcase>
+</testsuite>
